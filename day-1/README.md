@@ -65,3 +65,56 @@ Run the script and follow the interactive menu prompts:
 ## 📝 Note
 Email configuration requires valid Gmail credentials and may need app-specific password for authentication.
 
+## 🔧 About psutil Library
+The script heavily relies on psutil (Python System and Process Utilities), which is a cross-platform library for retrieving information on running processes and system utilization. Here's what psutil provides:
+
+### System Resources Monitoring
+- **CPU Statistics**: 
+  - Per-CPU and system-wide CPU utilization
+  - CPU frequency
+  - CPU count (physical and logical)
+  - CPU time spent in different modes (user, system, idle)
+
+### Memory Information
+- **Virtual Memory**: 
+  - Total and available memory
+  - Used and free memory
+  - Memory usage percentage
+  - Swap memory statistics
+
+### Disk Management
+- **Storage Information**:
+  - Partitions and disk usage
+  - Disk I/O statistics
+  - Read/write counts and bytes
+  - Disk latency information
+
+### Network Statistics
+- **Network Interfaces**:
+  - Network connections (TCP/UDP)
+  - Network interface cards statistics
+  - Network I/O counters
+
+### Process Management
+- **Process Information**:
+  - Process list and status
+  - Process CPU usage
+  - Process memory usage
+  - Open files and connections
+
+### Cross-Platform Compatibility
+- Works consistently across:
+  - Linux
+  - Windows
+  - macOS
+  - FreeBSD
+  - OpenBSD
+  - NetBSD
+  - Sun Solaris
+
+### Installation
+
+```bash
+pip install psutil
+```
+
