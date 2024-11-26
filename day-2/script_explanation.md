@@ -16,3 +16,5 @@ Importing Libraries
 import json
 from datetime import datetime, timedelta
 ```
+- 'json': To parse the JSON file containing bucket metadata.
+- 'datetime': For date manipulation to calculate the age of each bucket.
