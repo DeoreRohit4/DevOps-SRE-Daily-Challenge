@@ -12,7 +12,7 @@ The script analyzes and optimizes Amazon S3 bucket metadata from a JSON file, fo
 
 ## 3. Step-by-Step Explanation
 Importing Libraries
-```
+```python
 import json
 from datetime import datetime, timedelta
 ```
